@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     buildAssetsDir: "assets",
   },
   modules: ['@nuxt/content'],
-  ssr: false,
+  // ssr: true,
   typescript: {
     shim: false
   },
