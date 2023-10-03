@@ -1,0 +1,146 @@
+// Common styles for both light and dark modes
+.content-page {
+    padding: 1rem 2rem;
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+        border-bottom: 1px solid;
+        padding-bottom: 0.5rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    h4 {
+        font-size: 1rem;
+    }
+    
+    h5 {
+        font-size: 0.8rem;
+    }
+    
+    h6 {
+        font-size: 0.6rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+    
+    ul, ol {
+        margin-bottom: 1rem;
+
+        li {
+            list-style-type: disc;
+            // font-size: 1rem;
+            line-height: 1.5;
+            // margin-bottom: 0.5rem;
+        }
+
+    }
+    
+    blockquote {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding: 1rem 1.5rem;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+    
+    hr {
+        margin: 1rem 0;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+        
+        th, td {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+        }
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    figure {
+        margin-bottom: 1rem;
+        
+        img {
+            margin-bottom: 0;
+        }
+        
+        figcaption {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 0.5rem;
+        }
+    }
+    
+    small {
+        font-size: 0.8rem;
+    }
+    
+    a {
+        text-decoration: underline;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+// Dark mode styles
+@media (prefers-color-scheme: dark) {
+    .content-page {
+        h1 {
+            border-color: #ccc;
+        }
+        blockquote {
+            background-color: #1f2b3b; // Background color for dark mode
+            border-left: 15px solid #1f1f1f; // Border color for dark mode
+        }
+        a {
+            color: #ccc;
+        }
+    }
+}
+
+// Light mode styles
+@media (prefers-color-scheme: light) {
+    .content-page {
+        h1 {
+            border-color: #1f2b3b;
+        }
+        blockquote {
+            background-color: #f5f5f5; // Background color for light mode
+            border-left: 15px solid #ccc; // Border color for light mode
+        }
+        
+        a {
+            color: #1f2b3b; // Link color for light mode
+        }
+    }
+}

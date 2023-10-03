@@ -1,0 +1,51 @@
+{
+    "body": [
+        {
+            "component": "image-desc",
+            "step": "1",
+            "image": "https://i.ibb.co/Lr5BmPt/step-1.png",
+            "alt": "Halaman utama - ILovePDF",
+            "md": "/document/konversi-pdf-ke-dokumen/_i-love-pdf/1.md"
+        },
+        {
+            "component": "image-selection-desc",
+            "step": "2",
+            "image": "https://i.ibb.co/LQzdFbT/step-2.png",
+            "alt": "Halaman fitur Word to PDF - ILovePDF",
+            "text": "Setelah anda mengklik sebelumnya, maka akan muncul tampilan seperti gambar diatas. Pilih file yang akan diubah menjadi dokumen Word. Ada dua cara untuk memilih file, yaitu:",
+            "selection": [
+                {
+                    "label": "Klik tombol \"Pilih file\"",
+                    "to": "2a"
+                },
+                {
+                    "label": "Drag and drop file",
+                    "to": "2b"
+                }
+            ]
+        },
+        {
+            "component": "image-desc",
+            "step": "2a",
+            "image": "https://i.ibb.co/jr4n6Hd/step-2a.gif",
+            "alt": "Klik tombol \"Pilih file\" - ILovePDF",
+            "text": "Klik tombol \"Pilih file\" dan pilih file yang akan diubah menjadi Word.",
+            "overrideNextTo": "3",
+            "overridePrevTo": "2"
+        },
+        {
+            "component": "image-desc",
+            "step": "2b",
+            "image": "https://i.ibb.co/XWXrp9k/step-2b.gif",
+            "alt": "Drag and drop file - ILovePDF",
+            "text": "Drag and drop file yang akan diubah menjadi dokumen Word.",
+            "overrideNextTo": "3",
+            "overridePrevTo": "2"
+        },
+        {
+            "component": "image-desc",
+            "step": "3",
+            "image": "https://i.ibb.co/0jJQJ3Q/step-3.png"
+        }
+    ]
+}

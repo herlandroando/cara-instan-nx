@@ -1,0 +1,22 @@
+{
+    "title": "Konversi Dokumen Word ke PDF",
+    "slug": "konversi-pdf-ke-dokumen",
+    "description": "Pernahkah kalian ditugaskan oleh pimpinan untuk mengubah dokumen Word menjadi PDF dan bingung bagaimana caranya? Nah, kali ini kita akan belajar bagaimana cara mengubah dokumen Word menjadi PDF dengan mudah dan cepat.",
+    "main_image": "https://i.ibb.co/Fw76Hvw/PDF-to-DOC.jpg",
+    "author": "Herlandro Tribiakto",
+    "author_link": "/author/herlandro-tribiakto.json",
+    "category": "document",
+    "type_content": "gallery",
+    "last_update": "2023-09-29T00:00:00",
+    "published_date": "2023-09-29T00:00:00",
+    "content": {
+        "component": "md",
+        "md": "/document/konversi-pdf-ke-dokumen/_intro.md"
+    },
+    "method": [
+        {
+            "key": "i-love-pdf",
+            "type": "vendor"
+        }
+    ]
+}
