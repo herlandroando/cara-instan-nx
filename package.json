@@ -6,7 +6,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "gh-pages --dotfiles -d dist"
+    "deploy": "nuxt generate && gh-pages --dotfiles -d dist"
   },
   "devDependencies": {
     "@nuxt/content": "^2.8.5",

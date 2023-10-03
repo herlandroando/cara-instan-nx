@@ -1,9 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  app:{
-    baseURL: "/cara-instan-nx/",
-    buildAssetsDir: "assets",
-  },
+  // ssr: false,
   modules: ['@nuxt/content'],
   // ssr: true,
   typescript: {
